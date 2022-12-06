@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  text-align: center;
+  color: #EDE9FE;
+  background: #4C1D95;
+}
+
+h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 40px
+}
+
+#home-score,
+#guest-score {
+  background: #0a0001;
+  font-size: 80px;
+  color: #F94F6D;
+  width: 155px;
+  height: 120px;
+  margin: 20px;
+  font-family: 'Cursed Timer ULiL', sans-serif;
+  border-radius: 5px;
+  line-height: 130px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  height: 350px;
+  margin-top: auto;
+  margin-bottom: auto;
+  flex-wrap: wrap;
+  align-items: center
+}
+
+button {
+  border-radius: 5px;
+  border: 2px solid #EDE9FE;
+  font-family: 'Cursed Timer ULiL', sans-serif;
+  background: #8B5CF6;
+  padding: 10px 10px 10px 10px;
+}
+
+#btn4-home,
+#btn4-guest {
+  color: #f3002d;
+}
+
+#reset-game {
+  height: 35px;
+}
